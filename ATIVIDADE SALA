@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<stYLE>
+    html { 
+        border: 1px solid rgb(8, 115, 216);
+    }
+    body{
+        border: 1px solid rgb(255, 0, 170);
+        text-align: center;
+    }
+    H1
+    {
+        border: 1px solid rgb(219, 58, 30);
+        padding: 50px;
+        margin: 5px;
+        background-color: rgb(34, 229, 255);
+    }
+    Span{
+        border: 1px solid rgb(0, 0, 0);
+        margin: 25px;
+        padding: 30px;
+        border-radius: 50px;
+
+    }
+    .diferente{
+        background-color: rgb(160, 0, 252);
+    }
+    .negrito{
+        font-weight: bold;
+    }
+    #caixinha{
+        font-size: 10px;
+        background: linear-gradient(rgb(255, 255, 255), rgb(255, 0, 242));
+    }
+
+
+    </style>
+<body>
+    <h1>Caixas</h1>
+    <h1>CAIXA</h1>
+    <span class="diferente">Caixa</span>
+    <span class="diferente negrito">Caixa</span>
+    <span>Caixa</span>
+    <span>Caixa</span>    
+    <span id="caixinha">Caixa</span>
+    <span class="negrito">Caixa</span>
+</body>
+</html>
